@@ -243,10 +243,7 @@ textarea {
   line-height: inherit;
 }
 
-.sendbtn
-{
-  border: solid #b446e7;
-}
+
 
 button,
 input {
@@ -12151,7 +12148,21 @@ pre .code {
     padding-left: calc(100% / 5) !important;
   }
 }
+.contactrow{
+  display: flex; 
+  flex-wrap: wrap;  
+  justify-content: center; 
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #8076ab;
+}
 
+.map
+{
+  border-radius: 15px;
+
+  padding-left: 20px;
+}
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12239,7 +12250,9 @@ li:hover{
 
 .sendbtn
 {
-  border-color: #000;
+  border: solid #0000;
+  background-color: #5249f5;
+  color: #ffff;
   border-radius: 5px;
 }
 
@@ -12250,6 +12263,6 @@ li:hover{
 
 .box
 {
-  border-radius: 12px;
+  border-radius: 5px;
   width: 250px;
 }
